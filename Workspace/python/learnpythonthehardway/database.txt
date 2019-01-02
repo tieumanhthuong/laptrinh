@@ -1,0 +1,4 @@
+{
+'data':'du lieu',
+'home':'ngoi nha'
+}
