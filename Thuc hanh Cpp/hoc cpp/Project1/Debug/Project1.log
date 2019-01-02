@@ -1,2 +1,3 @@
-﻿  tim_max.cpp
-  Project1.vcxproj -> G:\laptrinh\Thuc hanh Cpp\hoc cpp\Debug\Project1.exe
+﻿  xuat_chu_ra_man_hinh.cpp
+tim_max.obj : error LNK2005: _main already defined in xuat_chu_ra_man_hinh.obj
+G:\laptrinh\Thuc hanh Cpp\hoc cpp\Debug\Project1.exe : fatal error LNK1169: one or more multiply defined symbols found
