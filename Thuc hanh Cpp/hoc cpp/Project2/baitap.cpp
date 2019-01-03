@@ -12,6 +12,8 @@ void hinh_tron();
 void pt_bac1();
 void pt_bac2();
 void tam_giac();
+//ham goi boi truyen con tro!
+void swapByPointer(int *a,int *b);
 
 /* GIAI THICH TRONG BAI LAM !!!
 VD:1 so float la 1.23456789
@@ -26,16 +28,21 @@ sqrt(n); // La ham tinh can bac 2 dc khai bao trong thu vien <math.h>
 
 int main() {
 
-	xuat_man_hinh();
-	chan_le();
-	pheptoan();
-	tim_max();
-	hinh_chu_nhat();
-	hinh_tron();
-	pt_bac1();
-	pt_bac2();
-	tam_giac();
+	int a, b;
 
+	//xuat_man_hinh();
+	//chan_le();
+	//pheptoan();
+	//tim_max();
+	//hinh_chu_nhat();
+	//hinh_tron();
+	//pt_bac1();
+	//pt_bac2();
+	//tam_giac();
+	
+	cout << "Nhap 2 so a va b" << endl;
+	cin >> a >> b;
+	swapByPointer(&a,&b);
 	return 0;
 }
 
@@ -184,4 +191,13 @@ void tam_giac() {
 	cout << "--------------------------" << endl;
 	system("pause");
 	system("cls");
+}
+
+void swapByPointer(int *a, int *b) {
+	cout << "Gia tri ban dau cua a va b la : " << *a << " va " << *b << endl;
+	int tam = *a;
+	*a = *b;
+	*b = tam;
+	cout << "Gia tri sau cua a va b la : " << *a << " va " << *b << endl;
+	system("pause");
 }
