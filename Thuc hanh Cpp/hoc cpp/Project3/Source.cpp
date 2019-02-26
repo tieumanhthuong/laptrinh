@@ -10,7 +10,7 @@ void bai_4();
 void bai_5();
 void bai_6();
 void bai_7();
-int bai_8();
+int ucln();
 int bcnn();
 
 int main() {
@@ -22,7 +22,7 @@ int main() {
 	bai_5();
 	bai_6();*/
 	//bai_7();
-	a = bai_8();
+	a = ucln();
 	cout << a << endl;
 	b = bcnn();
 	cout << b << endl;
@@ -146,20 +146,20 @@ void bai_7() {
 	system("pause");
 	system("cls");
 }
-int bai_8() {
+int ucln() {
 	/*
 	Tim uoc so chung lon nhat va boi so chung nho nhat
 	cua 2 so nguyen duong a va b*/
-	unsigned int a, b, ucln;
+	unsigned int a, b, bai_4;
 	cout << "Nhap vao 2 so a va b " << endl;
 	cin >> a >> b;
 	cout << "Uoc chung lon nhat cua " << a << " va " << b << " la ";
 	for (unsigned int i = a; i > 0; i--) {
 		if (a%i == 0) {
-			ucln = i; 
+			bai_4 = i; 
 			for (unsigned int j = b; j > 0; j--) {
 				if (b%j == 0) {
-					if (ucln == j) return ucln;
+					if (bai_4 == j) return bai_4;
 				}
 			}
 		}
