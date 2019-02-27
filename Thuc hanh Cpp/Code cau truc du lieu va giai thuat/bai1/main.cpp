@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//hàm tính giai thừa sử dụng đệ quy
 int factorial(int n){
     if (n==0)
         return 1;

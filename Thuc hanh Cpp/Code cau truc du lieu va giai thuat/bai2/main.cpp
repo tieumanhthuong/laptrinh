@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//ham tim uoc chung lon nhat
+//hàm tìm ước chung lớn nhất dùng đệ quy đuôi!!!
 int gcd(int m, int n){
     int r;
     if(m<n)
