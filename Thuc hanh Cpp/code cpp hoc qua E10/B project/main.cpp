@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//ham tim uoc chung lon nhat
 int gcd(int m, int n){
     int r;
     if(m<n)
@@ -13,7 +13,7 @@ int gcd(int m, int n){
 }
 int main(int argc, char const *argv[])
 {
-    int m =25,n=5;
+    int m =34,n=26;
     int kq=gcd(m,n);
     cout<<kq;
     return 0;
